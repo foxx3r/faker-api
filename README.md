@@ -22,7 +22,7 @@ Instalação do Yarn:
   npm i -g yarn
 
 Instalação de dependencias:
-  yarn add express dotenv handlebars faker
+  yarn add express dotenv express-handlebars faker
 
 Modo de uso:
 - Rode o comando node index.js
