@@ -1,17 +1,12 @@
 const express = require("express")
 const app = express()
-const path = require("path")
 const faker = require("faker")
-const bodyParser = require("body-parser")
 const handlebars = require("express-handlebars")
 
 // config
 app.engine("handlebars", handlebars({ defaultLayout: "main" }))
 app.set("view engine", "handlebars")
-app.use(express.static('public'));
-
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
+app.use(express.static('public'))
 
 // routes
 app.get("/", (req, res, next) => {
