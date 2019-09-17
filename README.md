@@ -7,22 +7,42 @@ Modo de uso:
 - Instale as dependencias necessarias
 
 Instalação do NodeJS no Linux:
+
 Debian & derivados:
-  sudo apt install nodejs -y && sudo apt install npm -y
+
+
+sudo apt install nodejs -y && sudo apt install npm -y
+
 Arch Linux & derivados:
-  sudo pacman -S npm nodejs 
+
+
+sudo pacman -S npm nodejs 
+
 Fedora & derivados:
-  dnf install nodejs npm 
-  ou
-  yum install nodejs npm 
+
+
+dnf install nodejs npm 
+
+
+ou
+
+
+yum install nodejs npm 
+
 OpenSUSE & derivados:
-  zypper install npm nodejs
+
+
+zypper install npm nodejs
 
 Instalação do Yarn:
-  npm i -g yarn
+
+
+npm i -g yarn
 
 Instalação de dependencias:
-  yarn add express dotenv express-handlebars faker
+
+
+yarn add express dotenv express-handlebars faker
 
 Modo de uso:
 - Rode o comando node index.js
