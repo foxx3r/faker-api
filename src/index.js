@@ -1,4 +1,4 @@
-const app = require("./middlewares/app")
+const app = require("./api/middlewares/app")
 const http = require("http")
 require("dotenv").config()
 

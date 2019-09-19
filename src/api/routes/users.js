@@ -6,7 +6,9 @@ const handlebars = require("express-handlebars")
 // config
 app.engine("handlebars", handlebars({ defaultLayout: "main" }))
 app.set("view engine", "handlebars")
+
 app.use(express.static('public'))
+app.use(express.static("views"))
 
 // routes
 app.get("/", (req, res, next) => {
