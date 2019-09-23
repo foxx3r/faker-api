@@ -10,6 +10,7 @@ app.set("view engine", "handlebars")
 app.use(express.static('public'))
 app.use(express.static("views"))
 
+faker.locale = "pt_BR"
 // routes
 app.get("/", (req, res, next) => {
   res.render("home", {
