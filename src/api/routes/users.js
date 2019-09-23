@@ -19,7 +19,6 @@ app.get("/", (req, res, next) => {
     lastName: faker.name.lastName(),
     birthday: faker.date.past(),
     city: faker.address.city(),
-    country: faker.address.country(),
     phone: faker.phone.phoneNumber(),
     state: faker.address.stateAbbr(),
     street: faker.address.streetName(),
